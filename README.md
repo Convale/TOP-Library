@@ -2,4 +2,4 @@
 
 The ODIN Project's Library project.
 
-![](library_snapshot.png)
+![snapshot](library_snapshot.PNG)
