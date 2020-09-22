@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <title>Library</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="pageBanner">The Wonderful Library</header>
-    
+
     <div id="bookArrayBanner">
-        <div>Title</div>
-        <div>Author</div>
-        <div>Pages</div>
-        <div></div>
-        <div></div>
+      <div>Title</div>
+      <div>Author</div>
+      <div>Pages</div>
+      <div></div>
+      <div></div>
     </div>
-    <div id="bookArray">
-    </div>
+    <div id="bookArray"></div>
     <footer class="pageFooter">
-        <div id="newBook">
-            <div id="newBookData">
-                <br>
-                <label for="title">Title:</label>
-                <input type="text" id="title" name="title"><br>
-                <label for="author">Author:</label>
-                <input type="text" id="author" name="author"><br>
-                <label for="pages">Page Count:</label>
-                <input type="text" id="pages" name="pages"><br>
-                <label for="read">Have you read this?:</label>
-                <input type="radio" id="read" name="read" value="Read">Yes
-                <input type="radio" id="read" name="read" value="Unread">No<br>
-                <button id="formSubmit">Submit</button>
-            </div>
+      <div id="newBook">
+        <div id="newBookData">
+          <br />
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" /><br />
+          <label for="author">Author:</label>
+          <input type="text" id="author" name="author" /><br />
+          <label for="pages">Page Count:</label>
+          <input type="text" id="pages" name="pages" /><br />
+          <label for="read">Have you read this?:</label>
+          <input type="radio" id="read" name="read" value="Read" />Yes
+          <input type="radio" id="read" name="read" value="Unread" />No<br />
+          <button id="formSubmit">Submit</button>
         </div>
-        <br>
-        <button id="addBookToggle" type="button">Add a Book!</button>
+      </div>
+      <br />
+      <button id="addBookToggle" type="button">Add a Book!</button>
     </footer>
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
